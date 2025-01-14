@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #87ceeb; /* Bầu trời */
+  /* color: white; */
+  text-align: center;
+}
+
+#main-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #87ceeb, #4caf50);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px auto;
+  border: none;
+  background-color: #ff5733;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+canvas {
+  display: none;
+  background: #87ceeb; /* Nền game */
+}
+
+#room-list {
+  margin-top: 20px;
+}
+.room {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.room button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
